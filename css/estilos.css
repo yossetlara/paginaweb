@@ -1,0 +1,261 @@
+*{
+	padding: 0px;
+	margin: 0 auto;
+}
+
+body{
+	background-image: url("../img/imagenfondoarea.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: url("../img/r.png") 0 20, auto; 
+
+}
+a{
+	cursor: url("../img/r.png") , auto; 
+}
+
+html{
+	scroll-behavior: smooth;
+}
+.container{
+	width: 100%;
+	height: auto;
+
+
+}
+.enmedio{
+	width: 80%;
+	height: 50vh;
+	margin-top: 100px;
+	margin-right: 60px;
+	
+	
+	
+}
+.lado{
+	width: 40%;
+	height: 73vh;
+	background-color: rgba(7, 12, 200, 0.6);
+	margin-left: 200px;
+	box-shadow: 5px 8px 28px blanchedalmond;
+	border-radius: 50px;
+
+
+
+}
+.lado label{
+	font-family: courier;
+	font-size: 16px;
+	color: gray;
+}
+.lado1{
+	width: 250px;
+	height: 30px;
+	border: solid 2px black;
+}
+.lado button{
+	width: 255px;
+	height: 30px;
+	background-color: rgba(234, 233, 34, 0.6);
+}
+.inp-es {
+	width: 250px;
+	height: 90px;
+	border: solid 2px black;
+	margin-top: 20px;
+}
+.adentro{
+	width: 70%;
+	height: 80%;
+	
+	background-image: url("../img/alumnos.jpg");
+	background-size: cover;
+	border-radius: 10px;
+	animation: animate 8s infinite;
+}
+
+@keyframes animate {
+	20%{
+		background-image: url("../img/alumnos.jpg");
+		background-size: cover;
+	}
+	40%{
+		background-image: url("../img/alumnos1.jpg");
+		background-size: cover;
+	}
+	80%{
+		background-image: url("../img/alumnos2.jpg");
+		background-size: cover;
+	}
+}
+
+.cont-pag p{
+	font-family: tahoma;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	
+	margin-top: 20px;
+
+}
+
+.cabeza{
+	width: 25%;
+	height: 50vh;
+	margin-left: -40px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	
+	
+
+
+	
+
+}
+.menu{
+	width: 25%;
+	height: 66vh;
+	margin-left: 0px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-left: -40px;
+
+
+
+	
+}
+.cont-pag{
+	width: 80%;
+	height: 120vh;
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-right: 10px;
+	margin-top: -660px;
+	margin-bottom: 20px;
+	background-size: cover;
+	border: solid 3px white;
+
+
+}
+.logo{
+	width: 190px;
+	height: 190px;
+	border-radius: 200px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px blue;
+ 	background-image: url("../img/logo.jpg");
+
+   
+
+}
+.cabeza strong{
+	text-align: center;
+	font-family: tahoma;
+	font-size: 16px;
+
+}
+.cont-pag2{
+	width: 80%;
+	height: 120vh;
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-right: 10px;
+	margin-bottom: 20px;
+	flex-direction: column;
+	border: solid 3px white;
+	gap: 5px;
+
+
+}
+.cont-pag2 h2{
+ color: white;
+ text-align: center;
+}
+.menu a{
+	font-size: 20px;
+	text-decoration: none;
+	font-family: tahoma;
+	color: white;
+    
+	
+}
+.cont-pag h2{
+   text-align: center;
+	color: white;
+}
+.estilo-menu{
+	width: 190px;
+	height: 30px;
+	background-color: rgba(7, 12, 200, 0.6);
+	border: solid 2px black;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px white;
+
+}
+.estilo-menu1{
+	width: 190px;
+	height: 50px;
+	background-color: rgba(7, 12, 200, 0.6);
+	border: solid 2px black;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px white;
+}
+
+.cont-pag2 img{
+	width: 60px;
+	height: 60%;
+	object-fit: cover;
+	border-radius: 10px;
+	border: 2px solid white;
+	transition: all ease-out 0.5s;
+	cursor: pointer;
+	margin-left: 90px;
+	cursor: url("../img/r.png") , auto;	
+
+
+	
+
+}
+
+.cont-pag2 img:hover{
+	width: 40%;
+
+}
+.cont-pag2 p{
+	float: right;
+	color: white;
+	margin-top: 170px;
+	font-size: 16px;
+	font-family: tahoma;
+	text-align: center;
+} 
+.cont-pie{
+	width: 80%;
+	height: 15vh;
+	margin-right: 10px;
+	background-color: rgba(7, 12, 200, 0.6);
+	border: solid white 3px;
+}
+strong{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: -200px;
+}
+li{
+	color: white;
+	font-family: 16px;
+	font-family: tahoma;
+	text-align: center;
+}
+.p{
+	text-align: center;
+	color: white;
+	font-family: tahoma;
+	font-size: 16px;
+}
+
